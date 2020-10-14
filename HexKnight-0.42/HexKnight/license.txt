@@ -1,0 +1,9 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}
+${licensePrefix}Copyright (C) ${date?date?string("yyyy")} Éric Wenaas
+${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>

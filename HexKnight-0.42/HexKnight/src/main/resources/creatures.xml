@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2015 Éric Wenaas -->
+
+<creatures>
+    <type nom="orque">
+        <creature nom="maraudeur" nombre="10">
+            <attack>2</attack>
+            <defense>2</defense>
+            <points>2</points>
+        </creature>
+        <creature nom="guerrier" nombre="10">
+            <attack>3</attack>
+            <defense>2</defense>
+            <points>3</points>
+        </creature>
+    </type>
+    <type nom="dragon">
+        <creature nom="dragon vert" nombre="8">
+            <attack>5</attack>
+            <defense>5</defense>
+            <points>6</points>
+        </creature>
+        <creature nom="dragon rouge" nombre="8">
+            <attack>7</attack>
+            <defense>7</defense>
+            <points>8</points>
+        </creature>
+    </type>
+    <type nom="soldat">
+        <creature nom="archer" nombre="8">
+            <attack>4</attack>
+            <defense>2</defense>
+            <points>4</points>
+        </creature>
+        <creature nom="guarde" nombre="8">
+            <attack>4</attack>
+            <defense>4</defense>
+            <points>5</points>
+        </creature>
+    </type>
+    <type nom="mort vivant">
+        <creature nom="spectre" nombre="8">
+            <attack>2</attack>
+            <defense>6</defense>
+            <points>5</points>
+        </creature>
+        <creature nom="vampire" nombre="8">
+            <attack>6</attack>
+            <defense>4</defense>
+            <points>6</points>
+        </creature>
+    </type>
+</creatures>

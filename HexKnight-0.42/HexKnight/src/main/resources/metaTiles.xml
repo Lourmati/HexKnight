@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Copyright (C) 2015 Éric Wenaas
+
+-->
+
+<metatiles>
+    <metatile type="basic" id="A">
+        <tile pos="CENTER" type="PLAINES" feature="PORTAIL"/>
+        <tile pos="N" type="PLAINES" feature="AUCUN"/>
+        <tile pos="NE" type="FORET" feature="AUCUN"/>
+        <tile pos="SE" type="PLAINES" feature="AUCUN"/>
+        <tile pos="S" type="COTE" feature="AUCUN"/>
+        <tile pos="SW" type="COTE" feature="AUCUN"/>
+        <tile pos="NW" type="COTE" feature="AUCUN"/>
+    </metatile>
+
+    <metatile type="easy" id="1">
+        <tile pos="CENTER" type="FORET" feature="CERCLE_MAGIQUE"/>
+        <tile pos="N" type="FORET" feature="ORQUES"/>
+        <tile pos="NE" type="COTE" feature="AUCUN"/>
+        <tile pos="SE" type="PLAINES" feature="VILLAGE"/>
+        <tile pos="S" type="PLAINES" feature="AUCUN"/>
+        <tile pos="SW" type="PLAINES" feature="AUCUN"/>
+        <tile pos="NW" type="FORET" feature="AUCUN"/>
+    </metatile>
+
+    <metatile type="easy" id="2">
+        <tile pos="CENTER" type="COLLINES" feature="AUCUN"/>
+        <tile pos="N" type="COLLINES" feature="ORQUES"/>
+        <tile pos="NE" type="FORET" feature="CERCLE_MAGIQUE"/>
+        <tile pos="SE" type="PLAINES" feature="VILLAGE"/>
+        <tile pos="S" type="PLAINES" feature="AUCUN"/>
+        <tile pos="SW" type="COLLINES" feature="MINE">
+            <color>GREEN</color>
+        </tile>
+        <tile pos="NW" type="PLAINES" feature="AUCUN"/>
+    </metatile>
+
+    <metatile type="easy" id="3">
+        <tile pos="CENTER" type="FORET" feature="AUCUN"/>
+        <tile pos="N" type="PLAINES" feature="AUCUN"/>
+        <tile pos="NE" type="COLLINES" feature="CHATEAU"/>
+        <tile pos="SE" type="COLLINES" feature="AUCUN"/>
+        <tile pos="S" type="COLLINES" feature="MINE">
+            <color>WHITE</color>
+        </tile>
+        <tile pos="SW" type="PLAINES" feature="VILLAGE"/>
+        <tile pos="NW" type="PLAINES" feature="AUCUN"/>
+    </metatile>
+
+    <metatile type="easy" id="4">
+        <tile pos="CENTER" type="DESERT" feature="TOUR"/>
+        <tile pos="N" type="DESERT" feature="AUCUN"/>
+        <tile pos="NE" type="DESERT" feature="AUCUN"/>
+        <tile pos="SE" type="MONTAGNE" feature="AUCUN"/>
+        <tile pos="S" type="PLAINES" feature="VILLAGE"/>
+        <tile pos="SW" type="PLAINES" feature="AUCUN"/>
+        <tile pos="NW" type="COLLINES" feature="ORQUES"/>
+    </metatile>
+
+    <metatile type="easy" id="5">
+        <tile pos="CENTER" type="COTE" feature="AUCUN"/>
+        <tile pos="N" type="FORET" feature="AUCUN"/>
+        <tile pos="NE" type="PLAINES" feature="MONASTERE"/>
+        <tile pos="SE" type="PLAINES" feature="ORQUES"/>
+        <tile pos="S" type="COLLINES" feature="MINE">
+            <color>BLUE</color>
+        </tile>
+        <tile pos="SW" type="FORET" feature="AUCUN"/>
+        <tile pos="NW" type="FORET" feature="CERCLE_MAGIQUE"/>
+    </metatile>
+
+    <metatile type="easy" id="6">
+        <tile pos="CENTER" type="COLLINES" feature="MINE">
+            <color>RED</color>
+        </tile>
+        <tile pos="N" type="MONTAGNE" feature="AUCUN"/>
+        <tile pos="NE" type="FORET" feature="AUCUN"/>
+        <tile pos="SE" type="PLAINES" feature="AUCUN"/>
+        <tile pos="S" type="FORET" feature="ORQUES"/>
+        <tile pos="SW" type="COLLINES" feature="AUCUN"/>
+        <tile pos="NW" type="COLLINES" feature="ANTRE"/>
+    </metatile>
+
+    <metatile type="easy" id="7">
+        <tile pos="CENTER" type="MARAIS" feature="AUCUN"/>
+        <tile pos="N" type="COTE" feature="AUCUN"/>
+        <tile pos="NE" type="FORET" feature="ORQUES"/>
+        <tile pos="SE" type="FORET" feature="CERCLE_MAGIQUE"/>
+        <tile pos="S" type="PLAINES" feature="DONJON"/>
+        <tile pos="SW" type="COLLINES" feature="AUCUN"/>
+        <tile pos="NW" type="PLAINES" feature="MONASTERE"/>
+    </metatile>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    <metatile type="easy" id="8">
+        <tile pos="CENTER" type="MARAIS" feature="ORQUES"/>
+        <tile pos="N" type="FORET" feature="CERCLE_MAGIQUE"/>
+        <tile pos="NE" type="FORET" feature="RUINES"/>
+        <tile pos="SE" type="PLAINES" feature="AUCUN"/>
+        <tile pos="S" type="MARAIS" feature="VILLAGE"/>
+        <tile pos="SW" type="MARAIS" feature="AUCUN"/>
+        <tile pos="NW" type="FORET" feature="AUCUN"/>
+    </metatile>
+
+    <metatile type="easy" id="9">
+        <tile pos="CENTER" type="MONTAGNE" feature="AUCUN"/>
+        <tile pos="N" type="ARIDE" feature="DONJON"/>
+        <tile pos="NE" type="MONTAGNE" feature="AUCUN"/>
+        <tile pos="SE" type="ARIDE" feature="CHATEAU"/>
+        <tile pos="S" type="PLAINES" feature="AUCUN"/>
+        <tile pos="SW" type="ARIDE" feature="TOUR"/>
+        <tile pos="NW" type="PLAINES" feature="AUCUN"/>
+    </metatile>
+
+    <metatile type="easy" id="10">
+        <tile pos="CENTER" type="MONTAGNE" feature="AUCUN"/>
+        <tile pos="N" type="COLLINES" feature="ANTRE"/>
+        <tile pos="NE" type="FORET" feature="AUCUN"/>
+        <tile pos="SE" type="PLAINES" feature="AUCUN"/>
+        <tile pos="S" type="COLLINES" feature="RUINES"/>
+        <tile pos="SW" type="COLLINES" feature="CHATEAU"/>
+        <tile pos="NW" type="COLLINES" feature="AUCUN"/>
+    </metatile>
+
+    <metatile type="hard" id="1">
+        <tile pos="CENTER" type="DESERT" feature="MONASTERE"/>
+        <tile pos="N" type="MONTAGNE" feature="AUCUN"/>
+        <tile pos="NE" type="DESERT" feature="TOMBEAU"/>
+        <tile pos="SE" type="DESERT" feature="AUCUN"/>
+        <tile pos="S" type="DESERT" feature="AUCUN"/>
+        <tile pos="SW" type="COLLINES" feature="AUCUN"/>
+        <tile pos="NW" type="COLLINES" feature="AUCUN"/>
+    </metatile>
+
+    <metatile type="hard" id="2">
+        <tile pos="CENTER" type="COTE" feature="AUCUN"/>
+        <tile pos="N" type="COTE" feature="AUCUN"/>
+        <tile pos="NE" type="MARAIS" feature="RUINES"/>
+        <tile pos="SE" type="COLLINES" feature="MINE">
+            <color>GREEN</color>
+        </tile>
+        <tile pos="S" type="MARAIS" feature="DRAGONS"/>
+        <tile pos="SW" type="MARAIS" feature="TOUR"/>
+        <tile pos="NW" type="FORET" feature="AUCUN"/>
+    </metatile>
+                                                                                                                                
+    <metatile type="hard" id="3">
+        <tile pos="CENTER" type="ARIDE" feature="AUCUN"/>
+        <tile pos="N" type="MONTAGNE" feature="AUCUN"/>
+        <tile pos="NE" type="ARIDE" feature="RUINES"/>
+        <tile pos="SE" type="COLLINES" feature="TOUR"/>
+        <tile pos="S" type="ARIDE" feature="AUCUN"/>
+        <tile pos="SW" type="COLLINES" feature="MINE">
+            <color>WHITE</color>
+        </tile>
+        <tile pos="NW" type="ARIDE" feature="TOMBEAU"/>
+    </metatile>
+    
+    <metatile type="hard" id="4">
+        <tile pos="CENTER" type="MONTAGNE" feature="DRAGONS"/>
+        <tile pos="N" type="COLLINES" feature="MINE">
+            <color>BLUE</color>
+        </tile>
+        <tile pos="NE" type="COLLINES" feature="AUCUN"/>
+        <tile pos="SE" type="ARIDE" feature="CHATEAU"/>
+        <tile pos="S" type="ARIDE" feature="AUCUN"/>
+        <tile pos="SW" type="ARIDE" feature="RUINES"/>
+        <tile pos="NW" type="ARIDE" feature="AUCUN"/>
+    </metatile>
+
+    <metatile type="hard" id="5">
+        <tile pos="CENTER" type="MARAIS" feature="VILLE">
+            <color>GREEN</color>
+        </tile>
+        <tile pos="N" type="FORET" feature="CERCLE_MAGIQUE"/>
+        <tile pos="NE" type="MARAIS" feature="VILLAGE"/>
+        <tile pos="SE" type="MARAIS" feature="ORQUES"/>
+        <tile pos="S" type="MARAIS" feature="AUCUN"/>
+        <tile pos="SW" type="FORET" feature="ORQUES"/>
+        <tile pos="NW" type="COTE" feature="AUCUN"/>
+    </metatile>
+
+    <metatile type="hard" id="6">
+        <tile pos="CENTER" type="PLAINES" feature="VILLE">
+            <color>BLUE</color>
+        </tile>
+        <tile pos="N" type="FORET" feature="AUCUN"/>
+        <tile pos="NE" type="PLAINES" feature="MONASTERE"/>
+        <tile pos="SE" type="COTE" feature="AUCUN"/>
+        <tile pos="S" type="COTE" feature="AUCUN"/>
+        <tile pos="SW" type="COLLINES" feature="AUCUN"/>
+        <tile pos="NW" type="MONTAGNE" feature="DRAGONS"/>
+    </metatile>
+    
+    <metatile type="hard" id="7">
+        <tile pos="CENTER" type="PLAINES" feature="VILLE">
+            <color>WHITE</color>
+        </tile>
+        <tile pos="N" type="ARIDE" feature="AUCUN"/>
+        <tile pos="NE" type="PLAINES" feature="AUCUN"/>
+        <tile pos="SE" type="FORET" feature="AUCUN"/>
+        <tile pos="S" type="COTE" feature="DRAGONS"/>
+        <tile pos="SW" type="COTE" feature="AUCUN"/>
+        <tile pos="NW" type="ARIDE" feature="CHATEAU"/>
+    </metatile>
+
+    <metatile type="hard" id="8">
+        <tile pos="CENTER" type="PLAINES" feature="VILLE">
+            <color>RED</color>
+        </tile>
+        <tile pos="N" type="DESERT" feature="RUINES"/>
+        <tile pos="NE" type="COLLINES" feature="MINE">
+            <color>RED</color>
+        </tile>
+        <tile pos="SE" type="DESERT" feature="AUCUN"/>
+        <tile pos="S" type="DESERT" feature="DRAGONS"/>
+        <tile pos="SW" type="ARIDE" feature="AUCUN"/>
+        <tile pos="NW" type="ARIDE" feature="DRAGONS"/>
+    </metatile>
+
+</metatiles>
