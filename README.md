@@ -1,2 +1,2 @@
 # HexKnight
-HexKnight Java Game
+HexKnight Java Game (School Project - Software Maintenance)
